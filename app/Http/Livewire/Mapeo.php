@@ -35,6 +35,11 @@ class Mapeo extends Component
         $this->detalle = "";
     }
 
+    public function nuevoValor()
+    {
+      $this->refresh();
+    }
+
     public function selectBuilding($buildingName)
   {
     $this->selectedBuilding = $buildingName;

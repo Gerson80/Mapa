@@ -21,19 +21,19 @@
             <!-- Page Heading -->
             
                 <header class="bg-white dark:bg-gray-800 shadow">
-                    <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 w-full inline-flex">
-                        <div class="w-1/2 md:mx-28 mx-10">
-                            <p class="text-xl md:text-3xl text-gray-300 font-bold">
-                                Mapa del Tec-NM
+                    <div class=" mx-auto py-6 px-4 lg:px-8 w-full inline-flex text-center ">
+                        <div class="text-center">
+                            <p class="">
+                               
                             </p>
                         </div>
 
                         @if (Route::has('login'))
-                        <div class="text-xl md:text-3xl text-gray-300 font-bold text-right w-1/2 mr-10 md:mx-28">
+                        <div class="text-xl md:text-3xl text-gray-300 font-bold text-center ">
                             @auth
-                            <a href="{{ url('/dashboard') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Dashboard</a>
+                            <a href="{{ url('/dashboard') }}" class="">Dashboard</a>
                             @else
-                            <a href="{{ route('login') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Log in</a>
+                            <a href="{{ route('login') }}" class="text-center">Login</a>
                             @endauth
                             </div>
                         @endif
@@ -42,10 +42,11 @@
             
 
             <!-- Page Content -->
-            <main>
-                @livewire('mapeo')
+            <main >
+            @livewire('mapeo')
             </main>
-        </div>
+               
+        
 
         @stack('modals')
 

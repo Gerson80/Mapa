@@ -3,7 +3,7 @@
         <!-- Parte del buscador para filtrar dependiendo del edificio, departamento o servicio -->
         @if($boton_activado==0)
         <div class="w-1/3 inline-flex justify-center">
-            <button class="bg-gray-800 hover:bg-gray-700 text-white font-bold py-3 px-6 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110" wire:click="botonBusqueda(1)">Buscar Edificio</button>
+            <button class="bg-gray-800 hover:bg-gray-700 text-white font-bold  px-6 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110" wire:click="botonBusqueda(1)">Buscar Edificio</button>
         </div>
 
         <div class="w-1/3 inline-flex justify-center">

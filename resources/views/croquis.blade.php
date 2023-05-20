@@ -20,7 +20,7 @@
     <body class="font-sans antialiased">
             <!-- Page Heading -->
             
-                <header class="bg-white dark:bg-gray-800 shadow">
+                <header class=" bg-blue-950 shadow">
                     <div class=" mx-auto py-6 px-4 lg:px-8 w-full inline-flex text-center ">
                         <div class="text-center">
                             <p class="">

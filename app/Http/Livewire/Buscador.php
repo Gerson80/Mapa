@@ -9,7 +9,7 @@ use App\Models\Departamento;
 use App\Models\Tramite;
 class Buscador extends Component
 {
-    public $boton_activado = 0;
+    public $boton_activado = 0 ;
     public $edificio = "";
     public $departamento = "";
     public $tramite = "";
@@ -23,6 +23,7 @@ class Buscador extends Component
             'departamentos' => Departamento::where('nombre','like', '%'.$this->departamento.'%')->get(),
             'tramites' => Tramite::where('descripcion','like', '%'.$this->tramite.'%')->get(),
         ]);
+        return view('livewire.mapeo')->with('boton_activado', $this->boton_activado);
     }
 
     public function botonBusqueda($boton)

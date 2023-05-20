@@ -9,6 +9,8 @@
                 <button class="py-2 hover:border-dashed hover:border-2 hover:border-white bg-blue-800/75 hover:bg-blue-950 text-white font-bold  px-6 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110" wire:click="botonBusqueda(1)">Buscar Edificio</button>
             </div>
     
+
+            
             <div class="w-1/7 inline-flex justify-center">
                 <button class="py-2 hover:border-dashed hover:border-2 hover:border-white bg-blue-800/75 hover:bg-blue-950 text-white font-bold  px-6 rounded-lg shadow-md transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110" wire:click="botonBusqueda(2)">Buscar Departamento</button>
             </div>

@@ -2,6 +2,10 @@
 
 namespace App\Http\Livewire;
 
+
+
+
+
 use Livewire\Component;
 
 use App\Models\Edificio;
@@ -13,6 +17,9 @@ class Buscador extends Component
     public $edificio = "";
     public $departamento = "";
     public $tramite = "";
+
+
+    
 
     public function render()
     {

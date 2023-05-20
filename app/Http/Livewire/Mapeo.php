@@ -13,13 +13,12 @@ class Mapeo extends Component
 
     public $selectedBuilding = null;
 
-    /*public function render()
-    {
-        return view('livewire.mapeo', [
-            'edificidos' => Edificio::all(),
-        ]);
-    }*/
+ 
 
+
+
+
+    
     public function show($id)
     {
         

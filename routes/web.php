@@ -19,6 +19,9 @@ Route::get('/', function () {
     return view('croquis');
 })->name('croquis');
 
+
+
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
